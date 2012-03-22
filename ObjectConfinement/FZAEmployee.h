@@ -10,8 +10,6 @@
 
 @interface FZAEmployee : NSObject
 
-@property (nonatomic, strong) NSNumber *salary;
-
 - (void)increaseSalaryBy: (float)increment;
 
 @end

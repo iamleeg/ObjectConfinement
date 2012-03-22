@@ -8,6 +8,10 @@
 
 #import "FZAEmployee.h"
 
+@interface FZAEmployee ()
+@property (nonatomic, strong) NSNumber *salary;
+@end
+
 @implementation FZAEmployee
 
 @synthesize salary;
