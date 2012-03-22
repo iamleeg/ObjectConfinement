@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98A4D809151BE0AC00BB1A50 /* FZAEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A4D808151BE0AC00BB1A50 /* FZAEmployee.m */; };
+		ADCFFF49DA955C582E5B5BDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCFFF49DA955C582E5B5BDB /* UIKit.framework */; };
+		ADCFFF49DA955C582E5B5BDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCFFF49DA955C582E5B5BDD /* Foundation.framework */; };
+		ADCFFF49DA955C582E5B5BE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCFFF49DA955C582E5B5BDF /* CoreGraphics.framework */; };
+		ADCFFF49DA955C582E5B5BE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADCFFF49DA955C582E5B5BE5 /* InfoPlist.strings */; };
+		ADCFFF49DA955C582E5B5BE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCFFF49DA955C582E5B5BE7 /* main.m */; };
+		ADCFFF49DA955C582E5B5BEC /* FZAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCFFF49DA955C582E5B5BEB /* FZAAppDelegate.m */; };
+		ADCFFF49DA955C582E5B5BEF /* FZAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCFFF49DA955C582E5B5BEE /* FZAViewController.m */; };
+		ADCFFF49DA955C582E5B5BF2 /* FZAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADCFFF49DA955C582E5B5BF1 /* FZAViewController.xib */; };
+		ADCFFF49DA955C582E5B5BF4 /* FZAConfinementProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCFFF49DA955C582E5B5BF3 /* FZAConfinementProxy.m */; };
+		ADCFFF49DA955C582E5B5BF7 /* NSObject+FZAConfinementProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCFFF49DA955C582E5B5BF6 /* NSObject+FZAConfinementProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98A4D807151BE0AC00BB1A50 /* FZAEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZAEmployee.h; sourceTree = "<group>"; };
+		98A4D808151BE0AC00BB1A50 /* FZAEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZAEmployee.m; sourceTree = "<group>"; };
+		ADCFFF49DA955C582E5B5BD2 /* ObjectConfinement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectConfinement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCFFF49DA955C582E5B5BDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADCFFF49DA955C582E5B5BDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADCFFF49DA955C582E5B5BDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADCFFF49DA955C582E5B5BE3 /* ObjectConfinement-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "ObjectConfinement-Info.plist"; sourceTree = "<group>"; };
+		ADCFFF49DA955C582E5B5BE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADCFFF49DA955C582E5B5BE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADCFFF49DA955C582E5B5BE9 /* ObjectConfinement-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectConfinement-Prefix.pch"; sourceTree = "<group>"; };
+		ADCFFF49DA955C582E5B5BEA /* FZAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZAAppDelegate.h; sourceTree = "<group>"; };
+		ADCFFF49DA955C582E5B5BEB /* FZAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZAAppDelegate.m; sourceTree = "<group>"; };
+		ADCFFF49DA955C582E5B5BED /* FZAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZAViewController.h; sourceTree = "<group>"; };
+		ADCFFF49DA955C582E5B5BEE /* FZAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZAViewController.m; sourceTree = "<group>"; };
+		ADCFFF49DA955C582E5B5BF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FZAViewController.xib; sourceTree = "<group>"; };
+		ADCFFF49DA955C582E5B5BF3 /* FZAConfinementProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZAConfinementProxy.m; sourceTree = "<group>"; };
+		ADCFFF49DA955C582E5B5BF5 /* FZAConfinementProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZAConfinementProxy.h; sourceTree = "<group>"; };
+		ADCFFF49DA955C582E5B5BF6 /* NSObject+FZAConfinementProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FZAConfinementProxy.m"; sourceTree = "<group>"; };
+		ADCFFF49DA955C582E5B5BF8 /* NSObject+FZAConfinementProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FZAConfinementProxy.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADCFFF49DA955C582E5B5BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCFFF49DA955C582E5B5BDC /* UIKit.framework in Frameworks */,
+				ADCFFF49DA955C582E5B5BDE /* Foundation.framework in Frameworks */,
+				ADCFFF49DA955C582E5B5BE0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADCFFF49DA955C582E5B5BCE = {
+			isa = PBXGroup;
+			children = (
+				ADCFFF49DA955C582E5B5BCF /* Products */,
+				ADCFFF49DA955C582E5B5BDA /* Frameworks */,
+				ADCFFF49DA955C582E5B5BE1 /* ObjectConfinement */,
+			);
+			sourceTree = "<group>";
+		};
+		ADCFFF49DA955C582E5B5BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADCFFF49DA955C582E5B5BD2 /* ObjectConfinement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADCFFF49DA955C582E5B5BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADCFFF49DA955C582E5B5BDF /* CoreGraphics.framework */,
+				ADCFFF49DA955C582E5B5BDD /* Foundation.framework */,
+				ADCFFF49DA955C582E5B5BDB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADCFFF49DA955C582E5B5BE1 /* ObjectConfinement */ = {
+			isa = PBXGroup;
+			children = (
+				ADCFFF49DA955C582E5B5BF8 /* NSObject+FZAConfinementProxy.h */,
+				ADCFFF49DA955C582E5B5BF6 /* NSObject+FZAConfinementProxy.m */,
+				ADCFFF49DA955C582E5B5BF5 /* FZAConfinementProxy.h */,
+				ADCFFF49DA955C582E5B5BF3 /* FZAConfinementProxy.m */,
+				ADCFFF49DA955C582E5B5BF1 /* FZAViewController.xib */,
+				ADCFFF49DA955C582E5B5BEE /* FZAViewController.m */,
+				ADCFFF49DA955C582E5B5BED /* FZAViewController.h */,
+				ADCFFF49DA955C582E5B5BEB /* FZAAppDelegate.m */,
+				ADCFFF49DA955C582E5B5BEA /* FZAAppDelegate.h */,
+				98A4D807151BE0AC00BB1A50 /* FZAEmployee.h */,
+				98A4D808151BE0AC00BB1A50 /* FZAEmployee.m */,
+				ADCFFF49DA955C582E5B5BE2 /* Supporting Files */,
+			);
+			path = ObjectConfinement;
+			sourceTree = "<group>";
+		};
+		ADCFFF49DA955C582E5B5BE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADCFFF49DA955C582E5B5BE9 /* ObjectConfinement-Prefix.pch */,
+				ADCFFF49DA955C582E5B5BE7 /* main.m */,
+				ADCFFF49DA955C582E5B5BE5 /* InfoPlist.strings */,
+				ADCFFF49DA955C582E5B5BE3 /* ObjectConfinement-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADCFFF49DA955C582E5B5BD3 /* ObjectConfinement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCFFF49DA955C582E5B5BD4 /* Build configuration list for PBXNativeTarget "ObjectConfinement" */;
+			buildPhases = (
+				ADCFFF49DA955C582E5B5BD7 /* Sources */,
+				ADCFFF49DA955C582E5B5BD8 /* Frameworks */,
+				ADCFFF49DA955C582E5B5BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectConfinement;
+			productName = ObjectConfinement;
+			productReference = ADCFFF49DA955C582E5B5BD2 /* ObjectConfinement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADCFFF49DA955C582E5B5BCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = ADCFFF49DA955C582E5B5BCD /* Build configuration list for PBXProject "ObjectConfinement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADCFFF49DA955C582E5B5BCE;
+			productRefGroup = ADCFFF49DA955C582E5B5BCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADCFFF49DA955C582E5B5BD3 /* ObjectConfinement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADCFFF49DA955C582E5B5BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCFFF49DA955C582E5B5BE6 /* InfoPlist.strings in Resources */,
+				ADCFFF49DA955C582E5B5BF2 /* FZAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADCFFF49DA955C582E5B5BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCFFF49DA955C582E5B5BE8 /* main.m in Sources */,
+				ADCFFF49DA955C582E5B5BEC /* FZAAppDelegate.m in Sources */,
+				ADCFFF49DA955C582E5B5BEF /* FZAViewController.m in Sources */,
+				ADCFFF49DA955C582E5B5BF4 /* FZAConfinementProxy.m in Sources */,
+				ADCFFF49DA955C582E5B5BF7 /* NSObject+FZAConfinementProxy.m in Sources */,
+				98A4D809151BE0AC00BB1A50 /* FZAEmployee.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADCFFF49DA955C582E5B5BE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADCFFF49DA955C582E5B5BE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADCFFF49DA955C582E5B5BF1 /* FZAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADCFFF49DA955C582E5B5BF0 /* en */,
+			);
+			name = FZAViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADCFFF49DA955C582E5B5BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADCFFF49DA955C582E5B5BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADCFFF49DA955C582E5B5BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectConfinement/ObjectConfinement-Prefix.pch";
+				INFOPLIST_FILE = "ObjectConfinement/ObjectConfinement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ADCFFF49DA955C582E5B5BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectConfinement/ObjectConfinement-Prefix.pch";
+				INFOPLIST_FILE = "ObjectConfinement/ObjectConfinement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADCFFF49DA955C582E5B5BCD /* Build configuration list for PBXProject "ObjectConfinement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCFFF49DA955C582E5B5BD0 /* Release */,
+				ADCFFF49DA955C582E5B5BD1 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCFFF49DA955C582E5B5BD4 /* Build configuration list for PBXNativeTarget "ObjectConfinement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCFFF49DA955C582E5B5BD5 /* Release */,
+				ADCFFF49DA955C582E5B5BD6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADCFFF49DA955C582E5B5BCC /* Project object */;
+}
